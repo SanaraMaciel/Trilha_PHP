@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="py-4 bg-light text-dark">
+        <div class="container">
+            <div class="row">
+                <center><H2>Receitas simplesmente deliciosas</H2></center>
+                <div class="py-4 bg-light text-dark">
+                    <div class="conteudo">
+                        <div class="row">
+                            <?php foreach ($chamadas as $chamada): ?>
+                                <div class='item-grid-home sombra radious'>
+                                    <h3>
+                                        <?PHP echo $chamada->nome; ?>
+                                    </h3>
+                                    <?php echo anchor("receitas/ver" . $chamada->slug_receita, img('assets/imgs/receitas/' . $chamada->foto)) ?>
+                                    <p>
+                                        <?php echo anchor("receitas/ver/" . $chamada->slug_receita, word_limiter($chamada->texto, 15)) ?>
+                                    </p>
+                                </div>
+                            <?php endforeach; ?>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

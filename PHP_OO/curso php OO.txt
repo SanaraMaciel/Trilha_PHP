@@ -1,0 +1,41 @@
+definição de objeto:
+
+- coisa material ou abstrata que pode ser percebida pelos sentidos e descrita 
+por meio das suas características, comportamentos e estado atual.(físico ou não)
+
+- uma classe deve responder a 3 aspectos: - coisas q eu tenho, coisas q eu faço e como eu estou agora(estado)
+objeto possui: atributo, métodos e estado
+
+- Classe: define os atributos e métodos comuns que serão compartilhados por um objeto.
+- Objeto: é a instância de uma classe.
+
+- aula 3 Criando classes e objetos em PHP:
+
+- Diferente de java php não exige q as classes estejam cada uma em um documento separado , ou seja em php 
+eu posso criar 2, 3 , n classes dentro de um msm documento(arquivo) em java não  
+
+
+- modificadores de visibilidade público (+), privado (-) e protegido (#).
+visibilidade indica o nível de acesso para esse atributo
+(UML)- Linguagem de Modelagem Unificada
+Por padrão todos os atributos em php são publicos caso não declarados (var $cor)
+
+AULA 04 Métodos especiais:
+métodos acessores : metodos getters (get saldo()), não da acesso direto ao objeto garantindo uma segurança adicional
+
+métodos acessores : Setters métodos que setam valores em atributos ou objetos privados
+
+método especial método construtor: executar uma tarefa automaticamente sem que o usuario precise interferir
+nele. pode reeceber parâmetros
+método construtor:
+ Classe Caneta 
+
+método construtor()
+	tampar()
+	cor="Azul"
+fim- método
+
+
+
+ 
+

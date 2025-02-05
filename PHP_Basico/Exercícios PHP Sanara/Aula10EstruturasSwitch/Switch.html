@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/estilo.css"/>
+        <title>Curso de PHP - CursoemVideo.com</title>
+    </head>
+    <body>
+        <div>
+            <form method="get" action="Switch.php">
+                Numero: <input type="number" name="num"/>
+                <br/>
+                <fieldset><legend>Operação</legend>
+                    <input type="radio" name="op" value="1" id="dobro"/>
+                    <label for="dobro"> Dobro: </label>
+                    <input type="radio" name="op" value="2" id="cubo"/>
+                    <label for="cubo"> Cubo: </label>
+                    <input type="radio" name="op" value="3" id="raiz"/>
+                    <label for="raix"> Raiz Quadrara </label>
+                </fieldset> 
+                <br/>
+                <input type="submit" class="btn btn default" value="Calcular"/>
+            </form>
+        </div>
+    </body>
+</html>
+

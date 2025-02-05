@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="_css/estilo.css"/>
+        <meta charset="UTF-8"/>
+        <title>Curso de PHP - CursoemVideo.com</title>
+    </head>
+    <body>
+        <div>
+            <form method="get" action="02IdadePessoa.php">
+                Nome: <input type="text" name="nome"/>
+                Ano de Nascimento: <input type="number" name="ano"/>
+                <!-- fieldset é uma borda e na legenda da borda vai esta escrito sexo!-->
+                <fieldset><legend>Sexo:</legend>
+                    <input type="radio" name="sexo" id="masc" value="homem" checked/>
+                    <label for="masc">Masculino</label><br/>
+                    <input type="radio" name="sexo" id="fem" value="mulher"/>
+                    <label for="fem">Feminino</label><br/>
+                </fieldset>  
+                <br/>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </div>
+    </body>
+</html>
+

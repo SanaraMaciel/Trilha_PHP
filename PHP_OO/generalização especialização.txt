@@ -1,0 +1,28 @@
+quando percorremos uma árvore de cima pra baixo estamos fazendo uma ESPECIALIZAÇÃO
+
+quando percorremos uma árvore de baixo pra cima estamos fazendo uma GENERALIZAÇÃO
+
+
+2 tipos de herança 
+
+implementação - + pobre
+
+diferença - + completa 
+
+classe abstrata não pode gerar objeto
+
+herança de implementação extende uma classe abstrata em outra classe onde todos os métodos são herdados
+ex.: visitante extende pessoas abstrata . todos os métodos de pessoa visitante vai ter.
+
+herança de diferença quando a classe herda de uma abstrata e acrescenta + atributos a ela.
+ex aluno extende pessoa com atributo cpf e rg .
+
+sobreposição de método significa o método possuir execuções diferentes ao ser executado. 
+ex: para um aluno bolsista pagar mensalidade é diferente para um aluno q não é bolsista
+Ao herdar o método pagar mensalidade devo colocar o @sobrepor para eu poder fazer a alteração no método 
+pagar mensalidade de acordo com a bolsa. --- polimorfismo 
+em PHP a sobreposição de método é automática não é necessário colocar tag @sobrepor
+se um método for declarado como final ele não pode ser sobreposto ex: public final pagarMensalidade ele não pode 
+sobrepor o mesmo vale para classe se uma classe for declarada como final ela não pode ser herdada ela não pode
+ter filhas é uma classe folha.
+

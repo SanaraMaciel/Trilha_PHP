@@ -1,0 +1,35 @@
+polimorfismo  assinatura de método é quando os atributos são iguais e a mesma quantidade ex:
+
+assinatura iguais:
+ 
+- public método cal(n1: Real , n2 : Real): Real
+
+- public método cal(n1: Real , n2 : Real): Inteiro
+
+- assinaturas diferentes:
+
+- public método cal(n1: Real , n2 : Real): Real
+
+- public método cal(n1: Real , n2 : Real,n3:Real): Real
+
+ou 
+
+
+- public método cal(n1: Real , n2 : Real,n3:real): Real
+
+
+- public método cal(n1: Real , n2 : Real, n3:inteiro): Real
+
+
+polimorfismo de sobreposição não pode ser feito se não houver herança 
+
+- em php não existe uma palavra para sobrepor ele cria automaticamente
+
+
+Assinatura é a mesma quantidade de atributos e tipos deles
+para se ter a sobreposição de método é necessário estes possuirem a mesma assinatura e estarem em classes diferentes 
+
+PHP não suporta polimorfismo de sobrecarga 
+
+
+

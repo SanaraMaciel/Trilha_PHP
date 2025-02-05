@@ -1,0 +1,17 @@
+Pilares da programação orientada a objeto:
+
+E - encapsulamento
+ 
+A - Abstração
+
+H - herança  
+
+P - Polimorfismo
+
+interface não tem atributos somente métodos
+
+métodos abstratos: são declarados mas ão são escritos dentro da interface ou seja, o código não será executado 
+dentro da interface quando uma classe herdar esse método a classe que será imlementado o método
+
+Relacionamento entre as classes 
+
